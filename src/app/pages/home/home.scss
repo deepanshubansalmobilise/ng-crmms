@@ -1,0 +1,126 @@
+.dashboard {
+    background-color: rgba(238, 238, 238, 0.9333333333);
+    font-family: Open Sans;
+
+    .container {
+        max-width: 1440px;
+    }
+
+    .heading {
+        color: #2A295C;
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .update-time {
+        color: #2A295C;
+        font-size: 12px;
+    }
+
+    .legend {
+        border-radius: 4px;
+        border: 1px solid #283897;
+        color: #283897;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .widges {
+        border-radius: 10px;
+        border: 1.5px solid #E1E5EA;
+        background: #FFF;
+
+        .mood {
+            color: #212123;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .mood-percent {
+            color: #283897;
+            font-size: 11px;
+            text-align: right;
+
+        }
+
+        .progress {
+            display: flex;
+            // height: 0.7rem;
+            height: 6px;
+        }
+
+        .progress>.progress-bar {
+            background: #86B2E8;
+        }
+
+        .prpl {
+            background-color: #007BFF !important;
+        }
+
+        .green {
+            background-color: #0CC !important;
+        }
+
+        .skyblue {
+            background-color: #6F42C1 !important;
+        }
+
+        .calls {
+            color: #2A295C;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .agents {
+            color: #2A295C;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .number {
+            color: #007BFF;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .total {
+            color: #2A295C;
+            font-size: 14px;
+            opacity: 0.7;
+        }
+
+        .live-img {
+            position: relative;
+            top: 17px;
+            right: 12px;
+        }
+
+        .name {
+            color: #181D25;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .attending-calls {
+            color: #14B053;
+            font-size: 12px;
+        }
+
+        .outbound-calls {
+            color: #283897;
+            font-size: 12px;
+        }
+
+        .number-calls {
+            text-align: right;
+            color: #007BFF;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .avg-time {
+            color: #283897;
+            font-size: 12px;
+        }
+    }
+}

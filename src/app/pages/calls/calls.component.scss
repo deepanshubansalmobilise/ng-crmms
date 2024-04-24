@@ -1,0 +1,120 @@
+.call-wrapper{
+    background-color: #F6F6F6;
+
+    .container {
+        max-width: 1440px;
+        font-family: Open Sans;
+    
+        .widges {
+            box-shadow: 0px -1px 6px 0px rgba(42, 41, 92, 0.25);
+            height: 100vh;
+            background-color: rgba(238, 238, 238, 0.9333333333);
+    
+            .call-reg {
+                color: #2A295C;
+                font-size: 24px;
+                font-weight: 700;
+            }
+    
+            .form-label {
+                color: #2A295C;
+                font-size: 13px;
+                font-weight: 600;
+                line-height: 16px;
+            }
+    
+            .form-control {
+                padding: 10px 24px;
+                border-radius: 6px;
+                border: 1px solid #8891AA;
+                background: #FFF;
+            }
+    
+            .reset {
+                border-radius: 4px;
+                border: 1px solid #8891AA;
+                background: #FFF;
+                color: #2A295C;
+                text-align: center;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 20px;
+            }
+    
+            .search {
+                color: #FFF;
+                text-align: center;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 20px;
+                border-radius: 4px;
+                border: 1px solid #283897;
+                background: #283897;
+            }
+    
+            .fill {
+                color: #283897;
+                font-size: 13px;
+                font-weight: 600;
+                line-height: 20px;
+            }
+        }
+    
+        .widge {
+            height: 100vh;
+            
+    
+            .search {
+                color: #2A295C;
+                text-align: center;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 128%;
+                /* 23.04px */
+                letter-spacing: -0.5px;
+            }
+    
+            .criteria {
+                color: #283897;
+                text-align: center;
+                font-size: 14px;
+                line-height: 150%;
+            }
+    
+            .customer {
+                border-radius: 4px;
+                border: 1px solid #283897;
+                background: #283897;
+                color: #FFF;
+                text-align: center;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 20px;
+            }
+        }
+    
+        .logo-container {
+    
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .logo-line {
+            flex-grow: 1;
+            border-top: 2px solid #283897;
+            margin: 0 10px;
+        }
+    
+        .privacy {
+            color: #283897;
+            font-size: 14px;
+            font-weight: 600;
+        }
+    
+        .copywrite {
+            color: #283897;
+            font-size: 13px;
+        }
+    }
+}
